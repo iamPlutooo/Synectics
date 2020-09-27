@@ -1,0 +1,56 @@
+h1,p{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+}
+::-moz-selection{
+    background-color: #c9a30a;
+}
+::selection{
+    background-color: #F1C40F;
+    color: whitesmoke;
+}
+.title-section{
+    background-color: #cce7e8;
+    padding: 288px 0;
+}
+.title-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #283747;
+}
+.large-title{
+    font-size: 36px;
+}
+.subhead{
+    font-size: 26px;
+    color: #283747;
+}
+.highlight-text{
+    background-color: #F1C40F;
+}
+.introduce-section,
+.detail-section{
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #283747;
+    padding: 128px 0;
+}
+.skill-section,
+.example-section{
+    background-color: #F2F3F4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #283747;
+    padding: 80px 0; 
+}
+.download-section{
+    background-color: #cce7e8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
