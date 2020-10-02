@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap);
+
+h1,h3,h4,h5,h6,p{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+}
+::-moz-selection{
+    background-color: #c9a30a;
+}
+::selection{
+    background-color: #F1C40F;
+    color: whitesmoke;
+}
+.large-title{
+    font-size: 36px;
+}
+.subhead{
+    font-size: 26px;
+    color: #283747;
+}
+.highlight-text{
+    background-color: #F1C40F;
+}
+.introduce-section{
+    background-color: #D6EAF8;
+    padding: 240px 0;
+}
+.psychology-section{
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+.analogy-section{
+    background-color: #F8F9F9;
+    padding: 56px 0;
+}
+.card{
+    border-radius: 16px;
+}
+iframe{
+    padding: 1rem 0;
+}
+.conclude-section{
+    background-color: white;
+    padding: 56px 0;
+}

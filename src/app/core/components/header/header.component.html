@@ -1,28 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-light top-bar fixed-top">
+<nav class="shadow-sm navbar navbar-expand-lg navbar-light top-bar fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="home.component.html">SCSY</a>
+      <a class="navbar-brand" routerLink="/">SCSY</a>
       <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
             <li ngbDropdown class="nav-item dropdown">
-                <a ngbDropdownToggle class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Course</a>
+                <a ngbDropdownToggle class="nav-link dropdown-toggle" routerLink="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Course</a>
                 <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown05">
-                  <a class="dropdown-item" href="#">ความคิดสร้างสรรค์</a>
-                  <a class="dropdown-item" href="#">ความรู้เบื้องต้นเกี่ยวกับซินเนคติกส์ (Synectics)</a>
-                  <a class="dropdown-item" href="#">ซินเนคติกส์ (Synectics) กับความคิดสร้างสรรค์</a>
-                  <a class="dropdown-item" href="#">ซินเนคติกส์ (Synectics) กับการแก้ไขปัญหา</a>
+                  <a class="dropdown-item" routerLink="/creativity">ความคิดสร้างสรรค์</a>
+                  <a class="dropdown-item" routerLink="/synIntroduce">ความรู้เบื้องต้นเกี่ยวกับซินเนคติกส์ (Synectics)</a>
+                  <a class="dropdown-item" routerLink="/synWithcre">ซินเนคติกส์ (Synectics) กับความคิดสร้างสรรค์</a>
+                  <a class="dropdown-item" routerLink="/synWithproblem">ซินเนคติกส์ (Synectics) กับการแก้ไขปัญหา</a>
                 </div>
               </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">วิดีทัศน์การเรียนการสอน</a>
+            <a class="nav-link" routerLink="/learningClip" (click)="isMenuCollapsed = true">วิดีทัศน์การเรียนการสอน</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Portfolio</a>
+            <a class="nav-link" routerLink="/ectPortfolio" (click)="isMenuCollapsed = true">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Contact</a>
+            <a class="nav-link" routerLink="/aboutUs" (click)="isMenuCollapsed = true">About Us</a>
           </li>
         </ul>
       </div>

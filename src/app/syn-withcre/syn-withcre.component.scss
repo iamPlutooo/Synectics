@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap);
+
+h1,h4,h5,h6,p{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+}
+::-moz-selection{
+    background-color: #c9a30a;
+}
+::selection{
+    background-color: #F1C40F;
+    color: whitesmoke;
+}
+.large-title{
+    font-size: 36px;
+}
+.subhead{
+    font-size: 26px;
+    color: #283747;
+}
+.highlight-text{
+    background-color: #F1C40F;
+}
+.brucejoyce-section{
+    background-color: #D6EAF8;
+    padding: 240px 0;
+}
+.gordon-section{
+    background-color: white;
+    padding: 80px 0;
+}
+.learning-section{
+    background-color: #F2F3F4;
+    padding: 80px 0;
+}
+.conclude-section{
+    background-color: #D6EAF8;
+    padding: 80px 0;
+}

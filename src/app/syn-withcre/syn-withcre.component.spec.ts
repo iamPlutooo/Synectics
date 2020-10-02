@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FontComponent } from './font.component';
+import { SynWithcreComponent } from './syn-withcre.component';
 
-describe('FontComponent', () => {
-  let component: FontComponent;
-  let fixture: ComponentFixture<FontComponent>;
+describe('SynWithcreComponent', () => {
+  let component: SynWithcreComponent;
+  let fixture: ComponentFixture<SynWithcreComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FontComponent ]
+      declarations: [ SynWithcreComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FontComponent);
+    fixture = TestBed.createComponent(SynWithcreComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
