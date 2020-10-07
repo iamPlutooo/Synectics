@@ -11,5 +11,5 @@ export class AboutUsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
 }
