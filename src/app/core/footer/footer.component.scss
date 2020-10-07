@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap);
+
+h1,h3,h4,h5,p{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+}
+::-moz-selection{
+    background-color: #c9a30a;
+}
+::selection{
+    background-color: #F1C40F;
+    color: whitesmoke;
+}
+.footer-section{
+    background-color: #53719B;
+    padding: 48px 0;
+}
+.nav-link{
+    color: white;
+}
+p{
+    color: white;
+}

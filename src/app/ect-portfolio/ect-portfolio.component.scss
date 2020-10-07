@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap);
+
+h1,h2,h3,h4,h5,h6,p,.subhead,.large-title,.btn{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 100;
+}
+::-moz-selection{
+    background-color: #c9a30a;
+}
+::selection{
+    background-color: #F1C40F;
+    color: whitesmoke;
+}
+.large-title{
+    font-size: 36px;
+}
+.subhead{
+    font-size: 26px;
+    color: #283747;
+}
+.highlight-text{
+    background-color: #F1C40F;
+}
+.footer-section{
+    background-color: #F1C40F;
+    padding: 48px 0;
+}
+.title-section{
+    width: 100%;
+    background-color: white;
+    padding: 100px 0;
+    scroll-behavior: smooth;
+}
+.vdo-section{
+    scroll-behavior: smooth;
+    padding: 56px 0;
+    background-color: #F8F9F9;
+}
+.card{
+    border-radius: 16px;
+}
+.card-text{
+    color: #ABB2B9;
+}
+.type-section{
+    background-color: #F2F3F4;
+    padding: 64px 0;
+}
+.btn{
+    width: 500px;
+    height: 50px;
+    border-radius: 16px;
+}
